@@ -1,0 +1,40 @@
+{
+  "name": "rn-squircle-image",
+  "version": "0.0.1",
+  "description": "Showcase a Fabric Native Component with a Squircle Image",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rn-squircle-image.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/gitkola/rn-squircle-image",
+  "author": "Nick Lavrov lavrovmykola@gmail.com> (https://github.com/gitkola)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitkola/rn-squircle-image/issues"
+  },
+  "homepage": "https://github.com/gitkola/rn-squircle-image#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNSquircleImageSpecs",
+    "type": "components",
+    "jsSrcsDir": "js"
+  }
+}
